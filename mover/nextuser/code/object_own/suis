@@ -1,0 +1,2 @@
+echo "sui move   --skip-fetch-latest-git-deps  $@"
+sui move   --skip-fetch-latest-git-deps  $@
