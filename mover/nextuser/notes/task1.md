@@ -318,9 +318,9 @@ export PATH=$PATH:/home/ljl/sui
 
 
 
-# 
+#
 
-### 9 otw 有时什么用
+### 9 otw 有什么用
 
 * 问题: 见证者对象有什么作用，我在好几个地方看到，只知道怎么用，不知道为什么要这么写
 
@@ -511,7 +511,7 @@ module coin_owner::hk {
 
    下文中不使用otw创建的Supply,可以用来创建balance和coin.
 
-   不同用户都可以调用这个mint_to 方法. 创建出来的coin 不能视为代币,使用 sui client balance   不能看到.
+   不同用户都可以调用这个mint_to 方法. 创建出来的coin 不能视为代币,使用 sui client balance   不能看到.  因为没有对应的CoinMetadata
 
    ```c++
    
